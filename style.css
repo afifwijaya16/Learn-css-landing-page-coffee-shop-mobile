@@ -1,0 +1,238 @@
+body {
+    color: #707070;
+    position: relative;
+    background-color: #f3f3f3;
+}
+/* Start nav */
+.main {
+    max-width: 375px;
+    height: 100%;
+    border: 1px solid #888;
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+    background-color: white;
+}
+
+h1, h2, h3 {
+    margin-bottom: 0;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+.text-brand {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.text-brand span {
+    font-weight: 400;
+}
+/* end nav */
+/* start carousel */
+.carousel {
+    height: 123px;
+}
+
+.text-carousel {
+    border-radius: 15px;
+    background-color: #00000087;
+    padding-left: 70px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.text-carousel h1 {
+    font-size: 25px;
+}
+.text-carousel h2 {
+    font-size: 12px;
+}
+
+/* end carousel */
+
+/* start wrap */
+.wrap-search {
+    border-radius: 50px;
+    position: relative;
+    width: 159px;
+    height: 33px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 20px #00000010;
+}
+.form-control {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.form-control::placeholder,
+.form-control[type="text"] {
+    font-size: 11px;
+}
+.icon-search {
+    position: absolute;
+    right: 10px;
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.wrap-icon {
+    box-shadow: 0px 5px 20px #00000010;
+    height: 33px;
+    width: 35px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 17px;
+    background-color: #ffffff;
+    border: none;
+}
+
+/* end wrap */
+
+/* start swift */
+.title-swift {
+    font-size: 12px;
+}
+
+.wrap-swift {
+    width: 100%;
+    height: 200px;
+    overflow-x: scroll;
+}
+/* untuk hidden scrollbar */
+
+.wrap-swift::-webkit-scrollbar {
+    display: none;
+}
+.card {
+    min-width: 150px;
+    padding: 8px;
+    box-shadow: 0px 5px 20px #00000010;
+    border: none;
+}
+.card-body {
+    padding: 0;
+}
+.card-body h5 , .card-body p {
+    margin-bottom: 0;
+}
+.card-body h5 {
+    font-size: 15px;
+}
+.card-body p {
+    font-size: 11px;
+}
+.wrap-shop {
+    background-color: red;
+    padding: 8px;
+    border-radius: 8px;
+    right: -5px;
+    bottom: -5px;
+    box-shadow: 0px 5px 20px #00000010;
+    position: absolute;
+}
+/* end swift */
+
+/* start overlay */
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color:  #000000d9;
+    top:0;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+
+.bar {
+    /* display: flex; */
+    flex-direction: column;
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    color: #ffffff;
+    padding-top: 50px;
+    display: none;
+}
+.bar-list {
+    display: none;
+}
+.btn-sign {
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 5px;
+    color: black;
+    border: none;
+}
+.btn-sign,
+.icon-toggle,
+.bar h5,
+.icon-close {
+    cursor: pointer;
+}
+/* end overlay */
+
+/* start main 2 */
+.main-2 {
+    position: fixed;
+    width: 375px;
+    height: 100vh;
+    background-color: #000000e3;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    display: none;
+}
+
+.swift-bar {
+    display: none;
+    background-color: #ffffff;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 20px;
+}
+
+.swift-bar h2 {
+    font-size: 13px;
+}
+.swift-bar h1 {
+    font-size: 15px;
+}
+.swift-bar h3 {
+    font-size: 11px;
+}
+.icon-toggle-2 {
+    cursor: pointer;
+}
+.scroll-bar {
+    width: 100%;
+    height: 250px;
+    overflow-y: scroll;
+}
+.scroll-bar::-webkit-scrollbar {
+    display: none;
+}
+/* end main 2 */
+
