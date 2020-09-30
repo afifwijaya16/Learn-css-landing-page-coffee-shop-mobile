@@ -3,4 +3,4 @@ Coffeeshop css with bootstrap 4.5
 ## Screenshot
 
 Landing Page
-   <img src="Capture.PNG" >
+   <img src="assets/Capture.PNG" >
